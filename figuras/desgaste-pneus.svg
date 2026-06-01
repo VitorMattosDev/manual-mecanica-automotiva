@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="360" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">O desenho do desgaste denuncia a causa</text>
+  <text x="360" y="46" text-anchor="middle" font-size="12" fill="#7f8c8d">(vista da banda de rodagem que toca o chão — vermelho = gasto)</text>
+
+  <!-- ===== Correta ===== -->
+  <g transform="translate(30,80)">
+    <rect x="0" y="0" width="130" height="120" rx="8" fill="#34495e"/>
+    <g fill="#1b2631"><rect x="14" y="0" width="10" height="120"/><rect x="44" y="0" width="10" height="120"/><rect x="74" y="0" width="10" height="120"/><rect x="104" y="0" width="10" height="120"/></g>
+    <rect x="0" y="0" width="130" height="120" rx="8" fill="none" stroke="#27ae60" stroke-width="4"/>
+    <text x="65" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#1e8449">Uniforme ✓</text>
+    <text x="65" y="166" text-anchor="middle" font-size="11" fill="#7f8c8d">calibragem correta</text>
+  </g>
+
+  <!-- ===== Centro gasto (calibragem alta) ===== -->
+  <g transform="translate(195,80)">
+    <rect x="0" y="0" width="130" height="120" rx="8" fill="#34495e"/>
+    <rect x="40" y="0" width="50" height="120" fill="#c0392b"/>
+    <text x="65" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#943126">Centro gasto</text>
+    <text x="65" y="166" text-anchor="middle" font-size="11" fill="#7f8c8d">pressão ALTA demais</text>
+  </g>
+
+  <!-- ===== Bordas gastas (calibragem baixa) ===== -->
+  <g transform="translate(360,80)">
+    <rect x="0" y="0" width="130" height="120" rx="8" fill="#34495e"/>
+    <rect x="0" y="0" width="28" height="120" fill="#c0392b"/>
+    <rect x="102" y="0" width="28" height="120" fill="#c0392b"/>
+    <text x="65" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#943126">Bordas gastas</text>
+    <text x="65" y="166" text-anchor="middle" font-size="11" fill="#7f8c8d">pressão BAIXA demais</text>
+  </g>
+
+  <!-- ===== Um lado gasto (alinhamento) ===== -->
+  <g transform="translate(525,80)">
+    <rect x="0" y="0" width="130" height="120" rx="8" fill="#34495e"/>
+    <polygon points="0,0 130,0 130,120 0,120" fill="none"/>
+    <polygon points="0,0 60,0 20,120 0,120" fill="#c0392b"/>
+    <text x="65" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#943126">Só um lado gasto</text>
+    <text x="65" y="166" text-anchor="middle" font-size="11" fill="#7f8c8d">desalinhamento</text>
+  </g>
+</svg>
