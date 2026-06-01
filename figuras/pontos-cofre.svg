@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Pontos de verificação no cofre do motor</text>
+  <text x="360" y="46" text-anchor="middle" font-size="12" fill="#7f8c8d">(layout ilustrativo — a posição varia conforme o carro)</text>
+
+  <!-- cofre -->
+  <rect x="170" y="70" width="380" height="330" rx="10" fill="#eef2f3" stroke="#7f8c8d" stroke-width="2"/>
+
+  <!-- Filtro de ar (caixa grande) -->
+  <rect x="200" y="95" width="120" height="70" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="2"/>
+  <text x="260" y="135" text-anchor="middle" font-size="11" fill="#2c3e50">filtro de ar</text>
+
+  <!-- Bateria -->
+  <rect x="200" y="300" width="100" height="70" rx="4" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+  <rect x="212" y="292" width="14" height="10" fill="#34495e"/><rect x="274" y="292" width="14" height="10" fill="#34495e"/>
+  <text x="250" y="340" text-anchor="middle" font-size="11" fill="#2c3e50">bateria</text>
+
+  <!-- Bloco do motor central com velas -->
+  <rect x="345" y="110" width="170" height="120" rx="6" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+  <g fill="#e67e22"><rect x="365" y="120" width="10" height="20"/><rect x="395" y="120" width="10" height="20"/><rect x="425" y="120" width="10" height="20"/><rect x="455" y="120" width="10" height="20"/></g>
+  <text x="430" y="180" text-anchor="middle" font-size="11" fill="#2c3e50">motor (velas em cima)</text>
+
+  <!-- Correia serpentina (zigue-zague) -->
+  <path d="M 360 250 L 400 240 L 360 270 L 400 290 L 360 300" fill="none" stroke="#2c3e50" stroke-width="4"/>
+  <circle cx="380" cy="245" r="10" fill="#85929e" stroke="#566573" stroke-width="2"/>
+  <circle cx="380" cy="295" r="14" fill="#85929e" stroke="#566573" stroke-width="2"/>
+  <text x="430" y="285" text-anchor="middle" font-size="11" fill="#2c3e50">correia</text>
+
+  <!-- Reservatórios à direita (tampas coloridas) -->
+  <rect x="470" y="250" width="30" height="40" rx="4" fill="#d5f5e3" stroke="#27ae60" stroke-width="2"/>
+  <rect x="470" y="246" width="30" height="8" rx="3" fill="#27ae60"/>
+  <rect x="470" y="310" width="30" height="40" rx="4" fill="#fdebd0" stroke="#e67e22" stroke-width="2"/>
+  <rect x="470" y="306" width="30" height="8" rx="3" fill="#e67e22"/>
+  <rect x="515" y="280" width="26" height="36" rx="4" fill="#eaf2f8" stroke="#5499c7" stroke-width="2"/>
+  <rect x="515" y="276" width="26" height="8" rx="3" fill="#5499c7"/>
+
+  <!-- Vareta de óleo -->
+  <rect x="330" y="240" width="8" height="60" rx="3" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+  <circle cx="334" cy="238" r="7" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+
+  <!-- ===== Rótulos com linhas de chamada ===== -->
+  <g font-size="12" fill="#2c3e50">
+    <!-- filtro de ar -->
+    <line x1="200" y1="110" x2="120" y2="100" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="115" y="104" text-anchor="end">Filtro de ar</text>
+    <!-- velas -->
+    <line x1="400" y1="120" x2="400" y2="80" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="400" y="74" text-anchor="middle">Velas de ignição</text>
+    <!-- vareta -->
+    <line x1="334" y1="238" x2="240" y2="210" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="235" y="214" text-anchor="end">Vareta de óleo</text>
+    <!-- arrefecimento (tampa verde) -->
+    <line x1="500" y1="260" x2="600" y2="240" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="605" y="244">Arrefecimento</text>
+    <!-- freio (tampa laranja) -->
+    <line x1="500" y1="325" x2="600" y2="320" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="605" y="324">Fluido de freio</text>
+    <!-- limpador (azul) -->
+    <line x1="541" y1="295" x2="600" y2="380" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="605" y="384">Água do limpador</text>
+    <!-- bateria -->
+    <line x1="200" y1="335" x2="120" y2="360" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="115" y="364" text-anchor="end">Bateria</text>
+  </g>
+</svg>
