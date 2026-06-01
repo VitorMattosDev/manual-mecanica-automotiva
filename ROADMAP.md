@@ -57,9 +57,9 @@ Cada `.qmd` deve conter, nesta ordem:
 
 ## Checklist de conclusão
 
-- [ ] 17 capítulos redigidos no padrão do cap. 2
-- [ ] Todas as figuras SVG conferidas visualmente
-- [ ] Fluxogramas mermaid validados
-- [ ] Placeholders de foto marcados onde necessário
-- [ ] `quarto render` sem erros (HTML + PDF)
-- [ ] Publicado no GitHub Pages
+- [x] 17 capítulos redigidos no padrão do cap. 2
+- [x] Todas as figuras SVG conferidas visualmente
+- [x] Fluxogramas mermaid validados
+- [x] Placeholders de foto marcados onde necessário
+- [x] `quarto render` sem erros (HTML + PDF)
+- [ ] Publicado no GitHub Pages *(automático no push para `main` via `.github/workflows/publish.yml`)*
