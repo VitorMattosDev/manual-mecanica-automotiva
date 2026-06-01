@@ -1,0 +1,120 @@
+# Glossário {#sec-glossario}
+
+Uma consulta rápida aos termos usados no manual, em linguagem simples. Onde fizer sentido, há um ponteiro para o capítulo que trata do assunto em detalhe.
+
+ABS
+:   Sistema que impede as rodas de **travarem** numa freada brusca, mantendo a capacidade de esterçar. A trepidação no pedal numa emergência é normal. (@sec-freios-fund)
+
+Aditivo (de arrefecimento)
+:   Produto misturado à água do sistema de arrefecimento que eleva o ponto de fervura, abaixa o de congelamento e protege contra ferrugem. Também chamado de fluido de arrefecimento ou *coolant*. (@sec-arrefecimento)
+
+Alternador
+:   Gerador movido pela correia do motor que produz eletricidade com o carro funcionando, recarregando a bateria e alimentando todo o sistema elétrico. (@sec-eletrico)
+
+Biela
+:   Haste que liga o pistão ao virabrequim, transmitindo o movimento de sobe-e-desce. (@sec-motor)
+
+Bobina de ignição
+:   Componente que eleva os 12 V da bateria para os milhares de volts de que a vela precisa para soltar a faísca. (@sec-eletrico)
+
+Cárter
+:   "Poça" no fundo do motor onde o óleo se acumula em repouso e de onde a vareta mede o nível. (@sec-arrefecimento)
+
+Catalisador
+:   Peça no escapamento que reduz a poluição dos gases queimados. Falhas de combustão podem danificá-lo. (@sec-obd2)
+
+Cavalete
+:   Suporte em forma de "A" que **sustenta** o carro com segurança depois de levantado pelo macaco. Item de segurança obrigatório. (@sec-ferramentas)
+
+Câmbio
+:   Conjunto de marchas que ajusta a relação entre o giro do motor e o das rodas. Pode ser manual, automático, CVT ou automatizado. (@sec-transmissao)
+
+Central eletrônica (ECU)
+:   O "computador" que comanda a injeção e a ignição lendo sensores, e que registra os códigos de falha. (@sec-combustivel)
+
+Chupeta
+:   Procedimento de usar a bateria de outro carro para dar a partida num carro com a bateria descarregada. A ordem dos cabos importa por segurança. (@sec-emergencias)
+
+Cilindro
+:   O "tubo" onde o pistão se move dentro do motor. (@sec-motor)
+
+Combustão
+:   A queima da mistura de ar e combustível que empurra o pistão e gera força. (@sec-motor)
+
+Compressor (ar-condicionado)
+:   Peça movida pela correia que comprime e faz circular o gás refrigerante. (@sec-ar-condicionado)
+
+Condensador
+:   Trocador de calor na frente do carro onde o gás do ar-condicionado libera calor para o ambiente. (@sec-ar-condicionado)
+
+Correia de acessórios (serpentina)
+:   Correia que transmite o giro do motor para alternador, bomba d'água, direção e compressor do ar. (@sec-fluidos)
+
+Correia dentada (de distribuição)
+:   Correia escondida que sincroniza válvulas e pistões; tem prazo de troca rígido, pois sua ruptura pode destruir o motor. Nem todo motor a usa (alguns usam corrente). (@sec-fluidos)
+
+Diferencial
+:   Conjunto de engrenagens que permite às rodas girarem em velocidades diferentes numa curva. (@sec-transmissao)
+
+Embreagem
+:   Mecanismo que acopla e desacopla o motor do câmbio, permitindo trocar marchas e parar sem desligar (no câmbio manual). (@sec-transmissao)
+
+Evaporador
+:   Trocador de calor atrás do painel onde o gás frio do ar-condicionado rouba o calor do ar da cabine. (@sec-ar-condicionado)
+
+Filtro de cabine
+:   Filtro que limpa o ar que entra no habitáculo; entupido, causa perda de força do ar e cheiro de mofo. Troca fácil. (@sec-ar-condicionado)
+
+Fluido de freio
+:   Líquido que transmite a força do pedal às rodas. Absorve umidade com o tempo e deve ser trocado periodicamente. (@sec-freios-fund)
+
+Fusível
+:   Peça barata que se queima de propósito para proteger a fiação de excesso de corrente. Troque sempre por um de mesma amperagem. (@sec-eletrico)
+
+Injeção eletrônica
+:   Sistema que dosa o combustível com precisão por meio de injetores, comandado pela central eletrônica. (@sec-combustivel)
+
+Junta do cabeçote
+:   Vedação entre as principais partes do motor; quando "queima" (muitas vezes por superaquecimento), mistura fluidos e exige reparo caro. (@sec-arrefecimento)
+
+Macaco
+:   Ferramenta que **levanta** o carro. Serve apenas para erguer; quem sustenta é o cavalete. (@sec-ferramentas)
+
+OBD-II
+:   Sistema padronizado de diagnóstico de bordo; pela tomada de 16 pinos um leitor mostra os códigos de falha guardados pelo carro. (@sec-obd2)
+
+Pastilha (de freio)
+:   Bloco de material de atrito que, prensado pela pinça contra o disco, freia o carro. É peça de sacrifício e se gasta. (@sec-freios-fund)
+
+Pinça (caliper)
+:   Peça que abraça o disco de freio e prensa as pastilhas contra ele quando você pisa no pedal. (@sec-freios-fund)
+
+Pistão
+:   Peça que sobe e desce dentro do cilindro, empurrada pela explosão. (@sec-motor)
+
+Radiador
+:   Grade de tubos na frente do carro onde o líquido de arrefecimento perde calor para o ar. (@sec-arrefecimento)
+
+Sangria (de freio)
+:   Processo de expulsar o ar (e o fluido velho) do sistema de freio pelos parafusos sangradores, na ordem correta. (@sec-freios-manut)
+
+Sonda lambda
+:   Sensor que mede o oxigênio nos gases de escape para a central ajustar a mistura. (@sec-combustivel)
+
+Termostato
+:   Válvula que segura o líquido de arrefecimento até o motor aquecer, abrindo na temperatura ideal. (@sec-arrefecimento)
+
+Torque (de aperto)
+:   A "força de aperto" correta de um parafuso, medida com o torquímetro. Apertar de mais ou de menos causa problemas. (@sec-ferramentas)
+
+TWI
+:   Indicador de desgaste do pneu: saliências no fundo dos sulcos que mostram quando a borracha chegou ao limite. (@sec-pneus)
+
+Vela de ignição
+:   Peça que solta a faísca que inflama a mistura em motores a gasolina/etanol. Gasta, causa falhas de combustão. (@sec-motor)
+
+Virabrequim
+:   Peça que converte o movimento de sobe-e-desce dos pistões em rotação, que vai girar as rodas. (@sec-motor)
+
+Viscosidade
+:   O quão "grosso" é um óleo (ex.: 5W-30). Deve seguir a especificação do fabricante. (@sec-arrefecimento)
