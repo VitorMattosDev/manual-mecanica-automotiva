@@ -1,0 +1,11 @@
+# Introdução ao OBD-II {#sec-obd2}
+
+> *Capítulo a desenvolver.* Como ler os códigos que o próprio carro registra.
+
+## O conector e o scanner
+
+Tópicos previstos: o que é OBD-II, leitor de código barato, como interpretar códigos (ex.: P0300), limites do diagnóstico caseiro.
+
+## Resumo
+
+*A preencher.*

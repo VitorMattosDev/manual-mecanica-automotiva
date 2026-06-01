@@ -1,0 +1,63 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Manual de Mecânica e Manutenção Automotiva"
+  subtitle: "Um guia didático para iniciantes"
+  author: "Manuais de Ciências"
+  date: today
+  lang: pt-BR
+  search: true
+  page-navigation: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - part: "Parte I — Fundamentos"
+      chapters:
+        - capitulos/01-visao-geral.qmd
+        - capitulos/02-motor.qmd
+        - capitulos/03-arrefecimento-lubrificacao.qmd
+        - capitulos/04-combustivel.qmd
+        - capitulos/05-transmissao.qmd
+        - capitulos/06-freios-suspensao-direcao.qmd
+        - capitulos/07-eletrico.qmd
+    - part: "Parte II — Diagnóstico"
+      chapters:
+        - capitulos/08-ouvindo-o-carro.qmd
+        - capitulos/09-luzes-painel.qmd
+        - capitulos/10-diagnostico-sintoma.qmd
+        - capitulos/11-obd2.qmd
+    - part: "Parte III — Manutenção prática"
+      chapters:
+        - capitulos/12-ferramentas-seguranca.qmd
+        - capitulos/13-troca-oleo.qmd
+        - capitulos/14-pneus.qmd
+        - capitulos/15-freios.qmd
+        - capitulos/16-fluidos-correias-velas.qmd
+        - capitulos/17-cronograma.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - estilo.scss
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    fig-align: center
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fig-align: center
+    lang: pt-BR
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm

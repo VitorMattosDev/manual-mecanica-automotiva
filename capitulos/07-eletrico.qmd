@@ -1,0 +1,11 @@
+# Sistema elétrico e bateria {#sec-eletrico}
+
+> *Capítulo a desenvolver.* A "rede de energia" do carro.
+
+## Componentes
+
+Tópicos previstos: bateria, alternador, motor de arranque, fusíveis, faísca da ignição.
+
+## Resumo
+
+*A preencher.*

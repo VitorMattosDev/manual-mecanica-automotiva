@@ -1,0 +1,11 @@
+# Sistema de combustível {#sec-combustivel}
+
+> *Capítulo a desenvolver.* Como o combustível chega ao motor na quantidade certa.
+
+## Do tanque ao motor
+
+Tópicos previstos: tanque, bomba, filtro, injeção eletrônica, flex (gasolina/etanol), filtro de ar.
+
+## Resumo
+
+*A preencher.*

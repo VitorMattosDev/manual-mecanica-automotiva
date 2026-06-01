@@ -1,0 +1,11 @@
+# Transmissão e embreagem {#sec-transmissao}
+
+> *Capítulo a desenvolver.* Como a força do motor chega às rodas com a relação certa.
+
+## Câmbio manual e automático
+
+Tópicos previstos: embreagem, marchas, diferencial, câmbio automático e CVT.
+
+## Resumo
+
+*A preencher.*

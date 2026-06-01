@@ -1,0 +1,15 @@
+# Manutenção de freios {#sec-freios-manut}
+
+> *Capítulo a desenvolver.*
+
+::: {.atencao}
+Freio é item de segurança. Em caso de dúvida, procure um profissional.
+:::
+
+## Pastilhas e fluido
+
+Tópicos previstos: identificar desgaste, troca de pastilhas, sangria e troca de fluido.
+
+## Resumo
+
+*A preencher.*

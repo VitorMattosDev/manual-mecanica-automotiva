@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <linearGradient id="cyl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ecf0f1"/>
+      <stop offset="100%" stop-color="#bdc3c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Quatro tempos lado a lado -->
+  <g>
+    <!-- Tempo 1: Admissão -->
+    <g transform="translate(20,30)">
+      <rect x="0" y="0" width="120" height="200" rx="6" fill="url(#cyl)" stroke="#7f8c8d" stroke-width="2"/>
+      <!-- pistão embaixo -->
+      <rect x="10" y="150" width="100" height="35" fill="#5d6d7e" stroke="#34495e" stroke-width="1.5"/>
+      <line x1="60" y1="185" x2="60" y2="230" stroke="#34495e" stroke-width="4"/>
+      <!-- válvula admissão aberta -->
+      <line x1="35" y1="0" x2="35" y2="25" stroke="#27ae60" stroke-width="5"/>
+      <!-- válvula escape fechada -->
+      <line x1="85" y1="0" x2="85" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <!-- mistura entrando -->
+      <path d="M 30 30 q 5 30 0 60" stroke="#27ae60" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+      <text x="60" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">1. Admissão</text>
+      <text x="60" y="283" text-anchor="middle" font-size="11" fill="#7f8c8d">entra mistura</text>
+    </g>
+
+    <!-- Tempo 2: Compressão -->
+    <g transform="translate(190,30)">
+      <rect x="0" y="0" width="120" height="200" rx="6" fill="url(#cyl)" stroke="#7f8c8d" stroke-width="2"/>
+      <rect x="10" y="40" width="100" height="35" fill="#5d6d7e" stroke="#34495e" stroke-width="1.5"/>
+      <line x1="60" y1="75" x2="60" y2="230" stroke="#34495e" stroke-width="4"/>
+      <line x1="35" y1="0" x2="35" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <line x1="85" y1="0" x2="85" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <text x="60" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">2. Compressão</text>
+      <text x="60" y="283" text-anchor="middle" font-size="11" fill="#7f8c8d">pistão sobe</text>
+    </g>
+
+    <!-- Tempo 3: Combustão -->
+    <g transform="translate(360,30)">
+      <rect x="0" y="0" width="120" height="200" rx="6" fill="url(#cyl)" stroke="#7f8c8d" stroke-width="2"/>
+      <rect x="10" y="55" width="100" height="35" fill="#5d6d7e" stroke="#34495e" stroke-width="1.5"/>
+      <line x1="60" y1="90" x2="60" y2="230" stroke="#34495e" stroke-width="4"/>
+      <line x1="35" y1="0" x2="35" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <line x1="85" y1="0" x2="85" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <!-- faísca / explosão -->
+      <circle cx="60" cy="30" r="14" fill="#f39c12" opacity="0.85"/>
+      <circle cx="60" cy="30" r="7" fill="#e74c3c"/>
+      <text x="60" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">3. Combustão</text>
+      <text x="60" y="283" text-anchor="middle" font-size="11" fill="#7f8c8d">faísca empurra</text>
+    </g>
+
+    <!-- Tempo 4: Escape -->
+    <g transform="translate(530,30)">
+      <rect x="0" y="0" width="120" height="200" rx="6" fill="url(#cyl)" stroke="#7f8c8d" stroke-width="2"/>
+      <rect x="10" y="150" width="100" height="35" fill="#5d6d7e" stroke="#34495e" stroke-width="1.5"/>
+      <line x1="60" y1="185" x2="60" y2="230" stroke="#34495e" stroke-width="4"/>
+      <line x1="35" y1="0" x2="35" y2="8" stroke="#c0392b" stroke-width="5"/>
+      <!-- válvula escape aberta -->
+      <line x1="85" y1="0" x2="85" y2="25" stroke="#27ae60" stroke-width="5"/>
+      <path d="M 90 30 q -5 -15 0 -28" stroke="#95a5a6" stroke-width="2" fill="none"/>
+      <text x="60" y="265" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">4. Escape</text>
+      <text x="60" y="283" text-anchor="middle" font-size="11" fill="#7f8c8d">saem gases</text>
+    </g>
+  </g>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#27ae60"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,15 @@
+# Visão geral: como um carro funciona {#sec-visao-geral}
+
+> *Capítulo a desenvolver.* Apresenta o panorama dos grandes sistemas do veículo e como eles se conectam, servindo de mapa para o resto do manual.
+
+## O que compõe um carro
+
+Tópicos previstos:
+
+- Os grandes sistemas: motor, transmissão, freios, suspensão, direção, elétrico.
+- O fluxo de energia: do tanque às rodas.
+- Carros a combustão, híbridos e elétricos: o que muda.
+
+## Resumo
+
+*A preencher.*

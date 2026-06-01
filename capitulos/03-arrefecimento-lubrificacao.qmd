@@ -1,0 +1,15 @@
+# Arrefecimento e lubrificação {#sec-arrefecimento}
+
+> *Capítulo a desenvolver.* Como o motor é mantido na temperatura certa e protegido do atrito.
+
+## Sistema de arrefecimento
+
+Tópicos previstos: radiador, água/aditivo, bomba d'água, válvula termostática, sintomas de superaquecimento.
+
+## Sistema de lubrificação
+
+Tópicos previstos: função do óleo, bomba e filtro de óleo, tipos de óleo, por que e quando trocar.
+
+## Resumo
+
+*A preencher.*

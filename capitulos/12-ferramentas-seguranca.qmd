@@ -1,0 +1,19 @@
+# Ferramentas e segurança na garagem {#sec-ferramentas}
+
+> *Capítulo a desenvolver.* **Leia antes de qualquer tarefa prática.**
+
+::: {.perigo}
+Nunca trabalhe embaixo de um carro apoiado apenas no macaco. Use cavaletes.
+:::
+
+## Ferramentas básicas
+
+Tópicos previstos: kit essencial, cavaletes e macaco, EPIs.
+
+## Regras de segurança
+
+Tópicos previstos: motor frio, desligar a bateria, ventilação, descarte de fluidos.
+
+## Resumo
+
+*A preencher.*

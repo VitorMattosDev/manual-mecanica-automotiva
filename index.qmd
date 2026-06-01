@@ -1,0 +1,38 @@
+# Bem-vindo {.unnumbered}
+
+Este manual é um guia completo e didático sobre mecânica e manutenção automotiva, escrito para quem está começando do zero. Não pressupõe nenhum conhecimento prévio: começamos entendendo como um carro funciona, passamos por como diagnosticar problemas comuns e terminamos colocando a mão na graxa com tarefas de manutenção que você mesmo pode fazer.
+
+## Como usar este manual
+
+O conteúdo está dividido em três partes que se complementam:
+
+- **Parte I — Fundamentos:** a teoria. Aqui você entende *por que* o carro funciona, sistema por sistema. É a base para tudo o que vem depois.
+- **Parte II — Diagnóstico:** a investigação. Como interpretar ruídos, luzes e sintomas para descobrir o que está errado.
+- **Parte III — Manutenção prática:** a ação. Passo a passo das tarefas mais comuns, com foco em segurança.
+
+Você pode ler na ordem (recomendado para iniciantes) ou pular direto para o que precisa. O grafo abaixo mostra como os capítulos se conectam — alguns são pré-requisitos naturais de outros.
+
+```{mermaid}
+graph TD
+    A[Visão geral do carro] --> B[Motor]
+    A --> C[Freios, suspensão, direção]
+    B --> D[Arrefecimento e lubrificação]
+    B --> E[Combustível]
+    B --> F[Transmissão]
+    A --> G[Sistema elétrico]
+    B --> H[Diagnóstico por sintoma]
+    C --> H
+    G --> I[Luzes do painel]
+    I --> J[OBD-II]
+    H --> J
+    D --> K[Troca de óleo]
+    C --> L[Manutenção de freios]
+    A --> M[Ferramentas e segurança]
+    M --> K
+    M --> L
+```
+
+::: {.callout-important}
+## Segurança em primeiro lugar
+Trabalhar em um veículo envolve riscos reais: peças pesadas, fluidos quentes, sistemas pressurizados e componentes elétricos. Sempre que uma tarefa exigir cuidado especial, este manual destaca o aviso. Leia o capítulo sobre ferramentas e segurança antes de qualquer trabalho prático.
+:::

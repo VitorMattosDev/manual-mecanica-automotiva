@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+$primary: #c0392b;
+$body-color: #2c3e50;
+$link-color: #c0392b;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "Segoe UI", sans-serif;
+
+/*-- scss:rules --*/
+
+.figura-tecnica {
+  margin: 1.5rem auto;
+  max-width: 100%;
+  display: block;
+}
+
+.figura-legenda {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+// Caixas didáticas extras
+.dica {
+  border-left: 4px solid #27ae60;
+  background: #eafaf1;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.atencao {
+  border-left: 4px solid #e67e22;
+  background: #fef5e7;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.perigo {
+  border-left: 4px solid #c0392b;
+  background: #fdedec;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}

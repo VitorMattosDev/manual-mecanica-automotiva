@@ -1,0 +1,19 @@
+# Freios, suspensão e direção {#sec-freios-fund}
+
+> *Capítulo a desenvolver.* Os sistemas que mantêm o carro seguro e dirigível.
+
+## Freios
+
+Tópicos previstos: freio a disco e a tambor, fluido, ABS.
+
+## Suspensão
+
+Tópicos previstos: amortecedores, molas, função no conforto e na segurança.
+
+## Direção
+
+Tópicos previstos: direção hidráulica e elétrica, alinhamento e balanceamento.
+
+## Resumo
+
+*A preencher.*

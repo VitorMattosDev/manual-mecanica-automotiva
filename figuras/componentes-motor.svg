@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <linearGradient id="block" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d5dbdb"/>
+      <stop offset="100%" stop-color="#aeb6bf"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bloco do motor -->
+  <rect x="120" y="120" width="200" height="160" rx="8" fill="url(#block)" stroke="#566573" stroke-width="2.5"/>
+
+  <!-- Cilindro -->
+  <rect x="175" y="90" width="90" height="120" rx="4" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+
+  <!-- Pistão -->
+  <rect x="185" y="150" width="70" height="40" fill="#5d6d7e" stroke="#34495e" stroke-width="2"/>
+
+  <!-- Biela -->
+  <line x1="220" y1="190" x2="220" y2="280" stroke="#34495e" stroke-width="6"/>
+
+  <!-- Virabrequim -->
+  <circle cx="220" cy="295" r="28" fill="#7f8c8d" stroke="#34495e" stroke-width="2.5"/>
+  <circle cx="220" cy="295" r="6" fill="#34495e"/>
+
+  <!-- Velas -->
+  <rect x="210" y="60" width="20" height="32" rx="3" fill="#e67e22" stroke="#ba6018" stroke-width="1.5"/>
+
+  <!-- Válvulas -->
+  <line x1="185" y1="70" x2="185" y2="92" stroke="#27ae60" stroke-width="4"/>
+  <line x1="255" y1="70" x2="255" y2="92" stroke="#c0392b" stroke-width="4"/>
+
+  <!-- Linhas de chamada / rótulos -->
+  <g font-size="14" fill="#2c3e50">
+    <line x1="230" y1="62" x2="360" y2="40" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="365" y="44">Vela de ignição</text>
+
+    <line x1="255" y1="70" x2="360" y2="80" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="365" y="84">Válvulas (adm./esc.)</text>
+
+    <line x1="255" y1="170" x2="360" y2="160" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="365" y="164">Pistão</text>
+
+    <line x1="120" y1="200" x2="60" y2="200" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="10" y="204">Bloco</text>
+
+    <line x1="220" y1="240" x2="60" y2="260" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="10" y="264">Biela</text>
+
+    <line x1="248" y1="295" x2="360" y2="300" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="365" y="304">Virabrequim</text>
+  </g>
+
+  <text x="260" y="395" text-anchor="middle" font-size="13" fill="#7f8c8d" font-style="italic">Corte esquemático de um cilindro</text>
+</svg>

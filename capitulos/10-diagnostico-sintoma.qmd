@@ -1,0 +1,21 @@
+# Diagnóstico por sintoma {#sec-diagnostico}
+
+> *Capítulo a desenvolver.* Fluxos práticos partindo do problema percebido.
+
+## Árvores de decisão
+
+Cada sintoma terá um fluxograma (mermaid) guiando a investigação. Exemplo:
+
+```{mermaid}
+flowchart TD
+    A[Carro não liga] --> B{Faz algum som ao virar a chave?}
+    B -->|Nenhum som| C[Verificar bateria e conexões]
+    B -->|Clique seco| D[Possível bateria fraca ou motor de arranque]
+    B -->|Motor gira mas não pega| E[Verificar combustível e faísca]
+```
+
+Sintomas previstos: não liga, superaquece, freio mole, perda de potência, fumaça.
+
+## Resumo
+
+*A preencher.*
