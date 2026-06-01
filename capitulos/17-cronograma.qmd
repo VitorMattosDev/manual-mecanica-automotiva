@@ -1,11 +1,74 @@
 # Cronograma de manutenção preventiva {#sec-cronograma}
 
-> *Capítulo a desenvolver.* Tabela consolidada do "o que fazer e quando".
+Chegamos ao capítulo que amarra tudo. Ao longo do manual você entendeu *como* cada sistema funciona e *como* cuidar dele. Falta a pergunta prática que todo dono faz: **"o que eu faço, e de quanto em quanto tempo?"** Este capítulo reúne isso numa visão de calendário. A ideia da manutenção **preventiva** é simples e poderosa: trocar e ajustar as coisas *antes* de elas falharem é sempre mais barato, mais seguro e menos estressante do que consertar na beira da estrada.
 
-## Por quilometragem e por tempo
+::: {.atencao}
+**A fonte oficial é o manual do seu carro.** Os intervalos abaixo são **faixas típicas** para orientar o iniciante, mas cada fabricante define os seus, e eles variam com o modelo, o motor e o tipo de uso. Onde houver divergência, o manual do veículo manda. Use esta tabela para *entender o ritmo* da manutenção, não como verdade absoluta.
+:::
 
-Tópicos previstos: tabela por km/meses, checklist mensal simples, o que delegar ao profissional.
+## A regra de ouro: o que vier primeiro
+
+Quase todo item de manutenção tem **dois gatilhos**: quilometragem **e** tempo. Vale sempre **o que chegar primeiro**. Quem roda muito atinge a quilometragem antes; quem roda pouco atinge o tempo antes — e, como vimos no @sec-troca-oleo, fluidos envelhecem mesmo com o carro parado. Não caia na armadilha do "rodo pouco, então não preciso trocar".
+
+## Tabela por quilometragem e tempo
+
+| Item | Intervalo típico | Capítulo | Quem faz |
+|---|---|---|---|
+| Óleo do motor + filtro de óleo | 5.000–10.000 km ou 12 meses | @sec-troca-oleo | Você / oficina |
+| Filtro de ar do motor | 10.000–15.000 km | @sec-combustivel | Você |
+| Filtro de combustível | 20.000–40.000 km | @sec-combustivel | Oficina |
+| Rodízio dos pneus | ~10.000 km | @sec-pneus | Você / borracheiro |
+| Alinhamento e balanceamento | 10.000 km ou ao trocar pneus | @sec-freios-fund | Oficina |
+| Pastilhas de freio | conforme desgaste (~20.000–40.000 km) | @sec-freios-manut | Oficina / avançado |
+| Fluido de freio | a cada 2 anos | @sec-freios-manut | Oficina |
+| Líquido de arrefecimento | a cada 2–5 anos (ver manual) | @sec-arrefecimento | Oficina |
+| Velas de ignição | 30.000–100.000 km (varia muito) | @sec-fluidos | Você / oficina |
+| Correia de acessórios | inspeção periódica; troca conforme estado | @sec-fluidos | Oficina |
+| **Correia dentada (distribuição)** | **prazo rígido — ver manual (ex.: 50.000–90.000 km)** | @sec-fluidos | Oficina |
+| Bateria | inspeção; troca a cada 2–4 anos | @sec-eletrico | Você / oficina |
+| Fluido do câmbio (automático/CVT) | conforme manual (não é "lacrado para sempre") | @sec-transmissao | Oficina |
+| Pneus (vida útil) | trocar no TWI ou ~5 anos de idade | @sec-pneus | Borracheiro |
+
+::: {.perigo}
+Repare na linha em destaque: a **correia dentada**. É o item cujo atraso pode custar o motor inteiro (@sec-fluidos). Anote o prazo do seu carro e **não o ultrapasse** — nem por quilometragem, nem por tempo. Descubra também se o seu motor usa correia (com prazo) ou corrente (que em geral dura a vida do motor).
+:::
+
+## Checklist mensal simples (faça você mesmo)
+
+Uma rotina rápida, de cinco minutos, com o motor frio, evita a maioria das surpresas. Uma vez por mês e antes de toda viagem:
+
+- [ ] **Óleo do motor** — conferir o nível pela vareta (@sec-troca-oleo).
+- [ ] **Líquido de arrefecimento** — nível no reservatório, motor frio (@sec-arrefecimento).
+- [ ] **Fluido de freio** — nível entre mín e máx (@sec-freios-manut).
+- [ ] **Água do limpador** — completar se preciso.
+- [ ] **Pneus** — calibragem (frios) e olhada no desgaste, sem esquecer o estepe (@sec-pneus).
+- [ ] **Luzes** — faróis, lanternas, freio e setas funcionando.
+- [ ] **Sob o carro** — alguma poça nova? Que cor? (@sec-ouvindo).
+- [ ] **Ouvidos e nariz** — algum ruído ou cheiro novo desde o último mês?
+
+::: {.dica}
+**Antes de viagem longa**, some a este checklist: pneus (incl. estepe) e macaco/chave em ordem, água do limpador cheia, palhetas do limpador em bom estado e uma olhada geral nas correias. Cinco minutos de conferência poupam horas paradas no acostamento.
+:::
+
+## O que delegar ao profissional
+
+Você já é capaz de fazer e acompanhar muita coisa. Mas reconhecer os próprios limites também é manutenção inteligente. Procure um profissional para:
+
+- **Serviços de segurança crítica** com os quais você não tem prática: sangria de freio, troca de pastilhas (se nunca fez), suspensão e direção.
+- **Correia dentada**, embreagem e serviços internos do motor e do câmbio.
+- **Sistemas de alta tensão** de carros híbridos e elétricos (@sec-visao-geral) — **nunca** mexa por conta própria.
+- **Diagnósticos que o OBD-II não resolve** sozinho (@sec-obd2) ou que exigem equipamento e experiência.
+
+::: {.callout-tip}
+## Manutenção é um hábito, não um evento
+Você não precisa virar mecânico. O maior ganho deste manual é a **mudança de postura**: prestar atenção, conferir o básico com regularidade e agir cedo. Um dono atento, com um checklist mensal e o manual do carro em mãos, evita a esmagadora maioria das panes — e chega a qualquer oficina sabendo do que está falando, sem ser passado para trás. É disso que se trata.
+:::
 
 ## Resumo
 
-*A preencher.*
+- Manutenção preventiva — agir antes da falha — é sempre mais barata e segura do que o conserto de emergência.
+- Cada item tem dois gatilhos, quilometragem e tempo: vale o que vier primeiro, mesmo rodando pouco.
+- A tabela por km/tempo dá o ritmo; o manual do seu carro tem os números oficiais.
+- A correia dentada é o item mais implacável: respeite o prazo para não destruir o motor.
+- Um checklist mensal simples (níveis, pneus, luzes, vazamentos, ruídos) previne a maioria das surpresas.
+- Saiba o que delegar: freios, correia dentada, sistemas internos e alta tensão pedem profissional.
