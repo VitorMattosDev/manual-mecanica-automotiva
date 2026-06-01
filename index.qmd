@@ -4,11 +4,13 @@ Este manual é um guia completo e didático sobre mecânica e manutenção autom
 
 ## Como usar este manual
 
-O conteúdo está dividido em três partes que se complementam:
+O conteúdo está dividido em quatro partes que se complementam, mais um glossário:
 
 - **Parte I — Fundamentos:** a teoria. Aqui você entende *por que* o carro funciona, sistema por sistema. É a base para tudo o que vem depois.
 - **Parte II — Diagnóstico:** a investigação. Como interpretar ruídos, luzes e sintomas para descobrir o que está errado.
 - **Parte III — Manutenção prática:** a ação. Passo a passo das tarefas mais comuns, com foco em segurança.
+- **Parte IV — Comprando com segurança:** o capítulo que junta tudo, aplicando o que você aprendeu para avaliar um carro usado.
+- **Glossário:** uma consulta rápida, ao final, para qualquer termo técnico que aparecer pelo caminho.
 
 Você pode ler na ordem (recomendado para iniciantes) ou pular direto para o que precisa. O grafo abaixo mostra como os capítulos se conectam — alguns são pré-requisitos naturais de outros.
 

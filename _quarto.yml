@@ -38,7 +38,15 @@ book:
         - capitulos/14-pneus.qmd
         - capitulos/15-freios.qmd
         - capitulos/16-fluidos-correias-velas.qmd
-        - capitulos/17-cronograma.qmd
+        - capitulos/17-ar-condicionado.qmd
+        - capitulos/18-trocas-rapidas.qmd
+        - capitulos/19-emergencias.qmd
+        - capitulos/20-cronograma.qmd
+    - part: "Parte IV — Comprando com segurança"
+      chapters:
+        - capitulos/21-inspecao-carro-usado.qmd
+  appendices:
+    - capitulos/glossario.qmd
 
 format:
   html:
