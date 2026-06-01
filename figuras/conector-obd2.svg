@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">O conector OBD-II e o que um código revela</text>
+
+  <!-- ===== Conector trapezoidal de 16 pinos ===== -->
+  <g transform="translate(40,70)">
+    <text x="115" y="0" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Tomada OBD-II (16 pinos)</text>
+    <!-- formato trapezoidal -->
+    <path d="M 20 20 H 210 L 195 90 H 35 Z" fill="#d5dbdb" stroke="#566573" stroke-width="2.5"/>
+    <!-- duas fileiras de pinos -->
+    <g fill="#34495e">
+      <!-- fileira de cima: 8 pinos -->
+      <circle cx="42" cy="38" r="4"/><circle cx="63" cy="38" r="4"/><circle cx="84" cy="38" r="4"/><circle cx="105" cy="38" r="4"/>
+      <circle cx="126" cy="38" r="4"/><circle cx="147" cy="38" r="4"/><circle cx="168" cy="38" r="4"/><circle cx="189" cy="38" r="4"/>
+      <!-- fileira de baixo: 8 pinos -->
+      <circle cx="46" cy="70" r="4"/><circle cx="66" cy="70" r="4"/><circle cx="86" cy="70" r="4"/><circle cx="106" cy="70" r="4"/>
+      <circle cx="126" cy="70" r="4"/><circle cx="146" cy="70" r="4"/><circle cx="166" cy="70" r="4"/><circle cx="186" cy="70" r="4"/>
+    </g>
+    <text x="115" y="120" text-anchor="middle" font-size="11" fill="#7f8c8d">geralmente sob o volante</text>
+
+    <!-- scanner conectado -->
+    <rect x="70" y="150" width="90" height="60" rx="6" fill="#2c3e50" stroke="#1b2631" stroke-width="2"/>
+    <rect x="82" y="162" width="66" height="26" rx="3" fill="#27ae60"/>
+    <text x="115" y="180" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">P0301</text>
+    <line x1="115" y1="92" x2="115" y2="150" stroke="#566573" stroke-width="3"/>
+    <text x="115" y="228" text-anchor="middle" font-size="11" fill="#7f8c8d">leitor de código (scanner)</text>
+  </g>
+
+  <!-- ===== Anatomia de um código ===== -->
+  <g transform="translate(330,70)">
+    <rect x="0" y="10" width="280" height="240" rx="10" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="140" y="40" text-anchor="middle" font-size="14" font-weight="700" fill="#2c3e50">Como ler "P0301"</text>
+
+    <!-- caracteres grandes -->
+    <g font-size="40" font-weight="700" font-family="monospace">
+      <text x="40" y="105" fill="#c0392b">P</text>
+      <text x="95" y="105" fill="#e67e22">0</text>
+      <text x="150" y="105" fill="#2980b9">3</text>
+      <text x="180" y="105" fill="#2980b9">0</text>
+      <text x="210" y="105" fill="#2980b9">1</text>
+    </g>
+
+    <g font-size="12" fill="#2c3e50">
+      <line x1="52" y1="115" x2="52" y2="135" stroke="#c0392b" stroke-width="1.5"/>
+      <text x="20" y="152" fill="#c0392b" font-weight="700">P</text>
+      <text x="36" y="152">= Powertrain (motor/câmbio)</text>
+
+      <line x1="108" y1="115" x2="108" y2="170" stroke="#e67e22" stroke-width="1.5"/>
+      <text x="20" y="186" fill="#e67e22" font-weight="700">0</text>
+      <text x="36" y="186">= código padrão (genérico)</text>
+
+      <line x1="180" y1="115" x2="180" y2="205" stroke="#2980b9" stroke-width="1.5"/>
+      <text x="20" y="221" fill="#2980b9" font-weight="700">301</text>
+      <text x="56" y="221">= falha de combustão,</text>
+      <text x="56" y="238">   cilindro 1</text>
+    </g>
+  </g>
+</svg>
