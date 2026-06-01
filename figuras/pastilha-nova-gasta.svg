@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Pastilha nova x gasta: quando trocar</text>
+
+  <!-- ===== Pastilha NOVA ===== -->
+  <g transform="translate(40,70)">
+    <rect x="0" y="0" width="220" height="200" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="110" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#1e8449">Nova</text>
+
+    <!-- suporte metálico -->
+    <rect x="40" y="60" width="140" height="22" fill="#566573" stroke="#34495e" stroke-width="1.5"/>
+    <text x="195" y="75" font-size="10" fill="#566573">suporte</text>
+    <!-- material de atrito (espesso) -->
+    <rect x="40" y="82" width="140" height="60" fill="#7d6608" stroke="#5b4a06" stroke-width="1.5"/>
+    <text x="110" y="118" text-anchor="middle" font-size="11" fill="#fff">material de atrito</text>
+
+    <!-- cota de espessura -->
+    <line x1="25" y1="82" x2="25" y2="142" stroke="#1e8449" stroke-width="2"/>
+    <line x1="21" y1="82" x2="29" y2="82" stroke="#1e8449" stroke-width="2"/>
+    <line x1="21" y1="142" x2="29" y2="142" stroke="#1e8449" stroke-width="2"/>
+    <text x="110" y="170" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="700">camada espessa</text>
+  </g>
+
+  <!-- ===== Pastilha GASTA ===== -->
+  <g transform="translate(380,70)">
+    <rect x="0" y="0" width="220" height="200" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="110" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#943126">Gasta</text>
+
+    <rect x="40" y="60" width="140" height="22" fill="#566573" stroke="#34495e" stroke-width="1.5"/>
+    <!-- material de atrito (fino) -->
+    <rect x="40" y="82" width="140" height="16" fill="#7d6608" stroke="#5b4a06" stroke-width="1.5"/>
+    <!-- indicador de desgaste (lingueta metálica) raspando -->
+    <rect x="150" y="82" width="6" height="26" fill="#c0392b"/>
+    <text x="195" y="100" font-size="10" fill="#c0392b">indicador</text>
+
+    <line x1="25" y1="82" x2="25" y2="98" stroke="#c0392b" stroke-width="2"/>
+    <line x1="21" y1="82" x2="29" y2="82" stroke="#c0392b" stroke-width="2"/>
+    <line x1="21" y1="98" x2="29" y2="98" stroke="#c0392b" stroke-width="2"/>
+    <text x="110" y="135" text-anchor="middle" font-size="12" fill="#943126" font-weight="700">camada fina</text>
+    <text x="110" y="158" text-anchor="middle" font-size="11" fill="#943126">o indicador chia ao frear</text>
+    <text x="110" y="180" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="700">trocar agora</text>
+  </g>
+
+  <text x="320" y="320" text-anchor="middle" font-size="11" fill="#7f8c8d" font-style="italic">A pastilha é o material que se sacrifica; o disco deve durar várias trocas de pastilha.</text>
+</svg>
