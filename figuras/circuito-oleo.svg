@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <marker id="oil" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="7" refY="6" orient="auto">
+      <path d="M0,0 L14,6 L0,12 Z" fill="#e67e22"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">O óleo é bombeado para cima, lubrifica as peças e escorre de volta</text>
+
+  <!-- Contorno do motor -->
+  <rect x="120" y="60" width="360" height="280" rx="10" fill="#ecf0f1" stroke="#7f8c8d" stroke-width="2"/>
+
+  <!-- Peças móveis no topo (mancais / comando) -->
+  <g>
+    <circle cx="200" cy="110" r="20" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <circle cx="300" cy="110" r="20" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <circle cx="400" cy="110" r="20" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <text x="300" y="80" text-anchor="middle" font-size="13" fill="#2c3e50" font-weight="700">Peças que se atritam (mancais, comando)</text>
+  </g>
+
+  <!-- Cárter (reservatório de óleo) no fundo -->
+  <path d="M 140 300 H 460 L 430 360 H 170 Z" fill="#e67e22" opacity="0.35" stroke="#ba6018" stroke-width="2"/>
+  <path d="M 140 300 H 460 L 430 360 H 170 Z" fill="none" stroke="#ba6018" stroke-width="2"/>
+  <text x="300" y="335" text-anchor="middle" font-size="14" font-weight="700" fill="#7b241c">Cárter (poça de óleo)</text>
+
+  <!-- Pescador / bomba -->
+  <rect x="280" y="270" width="40" height="22" rx="3" fill="#5d6d7e" stroke="#34495e" stroke-width="2"/>
+  <text x="300" y="262" text-anchor="middle" font-size="11" fill="#34495e">bomba</text>
+
+  <!-- Filtro de óleo (lateral) -->
+  <rect x="500" y="200" width="50" height="70" rx="8" fill="#d6eaf8" stroke="#2980b9" stroke-width="2"/>
+  <text x="525" y="290" text-anchor="middle" font-size="12" fill="#2c3e50">filtro</text>
+
+  <!-- Fluxo: bomba -> filtro -->
+  <path d="M 320 281 H 525 V 270" fill="none" stroke="#e67e22" stroke-width="5" marker-end="url(#oil)"/>
+  <!-- filtro -> sobe pela galeria -->
+  <path d="M 525 200 V 150 H 300" fill="none" stroke="#e67e22" stroke-width="5"/>
+  <!-- galeria distribui às peças -->
+  <path d="M 300 150 V 130" fill="none" stroke="#e67e22" stroke-width="5" marker-end="url(#oil)"/>
+  <path d="M 300 150 H 200 V 130" fill="none" stroke="#e67e22" stroke-width="5" marker-end="url(#oil)"/>
+  <path d="M 300 150 H 400 V 130" fill="none" stroke="#e67e22" stroke-width="5" marker-end="url(#oil)"/>
+  <text x="430" y="172" font-size="11" fill="#ba6018" font-weight="700">óleo sob pressão →</text>
+
+  <!-- Retorno: escorre de volta ao cárter -->
+  <path d="M 160 130 V 295" fill="none" stroke="#85929e" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#oil)"/>
+  <text x="150" y="220" text-anchor="end" font-size="11" fill="#566573">o óleo</text>
+  <text x="150" y="234" text-anchor="end" font-size="11" fill="#566573">escorre</text>
+  <text x="150" y="248" text-anchor="end" font-size="11" fill="#566573">de volta</text>
+</svg>

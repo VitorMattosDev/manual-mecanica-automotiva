@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <linearGradient id="rad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#aeb6bf"/>
+      <stop offset="100%" stop-color="#85929e"/>
+    </linearGradient>
+    <marker id="hot" markerWidth="10" markerHeight="10" refX="5" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="cool" markerWidth="10" markerHeight="10" refX="5" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#2980b9"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">O líquido circula em um anel fechado, levando calor do motor ao radiador</text>
+
+  <!-- Motor (quente) -->
+  <rect x="70" y="150" width="150" height="150" rx="10" fill="#f5b7b1" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="145" y="220" text-anchor="middle" font-size="17" font-weight="700" fill="#2c3e50">Motor</text>
+  <text x="145" y="242" text-anchor="middle" font-size="12" fill="#7b241c">(fica quente)</text>
+
+  <!-- Radiador (resfria) -->
+  <rect x="430" y="150" width="130" height="150" rx="6" fill="url(#rad)" stroke="#566573" stroke-width="2.5"/>
+  <g stroke="#566573" stroke-width="1">
+    <line x1="430" y1="170" x2="560" y2="170"/>
+    <line x1="430" y1="190" x2="560" y2="190"/>
+    <line x1="430" y1="210" x2="560" y2="210"/>
+    <line x1="430" y1="230" x2="560" y2="230"/>
+    <line x1="430" y1="250" x2="560" y2="250"/>
+    <line x1="430" y1="270" x2="560" y2="270"/>
+  </g>
+  <text x="495" y="330" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Radiador</text>
+
+  <!-- Ventoinha -->
+  <circle cx="495" cy="225" r="34" fill="none" stroke="#34495e" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="495" y="105" text-anchor="middle" font-size="12" fill="#34495e">Ventoinha sopra ar</text>
+  <line x1="495" y1="110" x2="495" y2="150" stroke="#95a5a6" stroke-width="1.2"/>
+
+  <!-- Mangueira superior: quente, motor -> radiador -->
+  <path d="M 220 175 H 300 V 165 H 430" fill="none" stroke="#c0392b" stroke-width="6" marker-end="url(#hot)"/>
+  <text x="320" y="150" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="700">líquido quente →</text>
+
+  <!-- Termostato -->
+  <circle cx="250" cy="175" r="11" fill="#f39c12" stroke="#ba6018" stroke-width="2"/>
+  <text x="250" y="200" text-anchor="middle" font-size="11" fill="#ba6018">termostato</text>
+
+  <!-- Mangueira inferior: frio, radiador -> bomba -> motor -->
+  <path d="M 430 285 H 320 V 275 H 245" fill="none" stroke="#2980b9" stroke-width="6" marker-end="url(#cool)"/>
+  <text x="350" y="305" text-anchor="middle" font-size="12" fill="#2980b9" font-weight="700">← líquido frio</text>
+
+  <!-- Bomba d'água -->
+  <circle cx="230" cy="275" r="16" fill="#d6eaf8" stroke="#2980b9" stroke-width="2.5"/>
+  <text x="190" y="278" text-anchor="end" font-size="11" fill="#2980b9">bomba</text>
+  <text x="190" y="292" text-anchor="end" font-size="11" fill="#2980b9">d'água</text>
+
+  <!-- Reservatório de expansão -->
+  <rect x="300" y="335" width="70" height="45" rx="5" fill="#d6eaf8" stroke="#5499c7" stroke-width="2"/>
+  <text x="335" y="362" text-anchor="middle" font-size="11" fill="#2c3e50">reservatório</text>
+  <line x1="335" y1="335" x2="335" y2="280" stroke="#95a5a6" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>
