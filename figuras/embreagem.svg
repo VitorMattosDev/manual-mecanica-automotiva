@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="340" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">A embreagem liga e desliga o motor do câmbio</text>
+
+  <!-- ============ Painel 1: ACOPLADA (pedal solto) ============ -->
+  <g transform="translate(0,40)">
+    <rect x="20" y="10" width="300" height="230" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="170" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#1e8449">Pedal SOLTO — acoplada</text>
+
+    <!-- eixo do motor (esq) -->
+    <rect x="40" y="120" width="55" height="14" fill="#5d6d7e"/>
+    <text x="55" y="200" font-size="11" fill="#7f8c8d">motor</text>
+    <!-- volante -->
+    <rect x="95" y="80" width="22" height="95" rx="3" fill="#85929e" stroke="#566573" stroke-width="2"/>
+    <!-- disco de embreagem (encostado no volante) -->
+    <rect x="119" y="80" width="16" height="95" rx="3" fill="#c0392b" stroke="#7b241c" stroke-width="2"/>
+    <!-- platô / mola -->
+    <rect x="137" y="80" width="14" height="95" rx="3" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <!-- eixo do câmbio (dir) -->
+    <rect x="151" y="120" width="120" height="14" fill="#5d6d7e"/>
+    <text x="250" y="200" text-anchor="middle" font-size="11" fill="#7f8c8d">câmbio</text>
+
+    <!-- rotação passa -->
+    <path d="M 60 72 Q 165 50 268 72" fill="none" stroke="#27ae60" stroke-width="3" marker-end="url(#go)"/>
+    <text x="165" y="48" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="700">a força passa</text>
+    <text x="127" y="225" text-anchor="middle" font-size="10" fill="#7b241c">disco prensado</text>
+  </g>
+
+  <!-- ============ Painel 2: DESACOPLADA (pedal pisado) ============ -->
+  <g transform="translate(340,40)">
+    <rect x="20" y="10" width="300" height="230" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="170" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#943126">Pedal PISADO — desacoplada</text>
+
+    <rect x="40" y="120" width="55" height="14" fill="#5d6d7e"/>
+    <text x="55" y="200" font-size="11" fill="#7f8c8d">motor</text>
+    <rect x="95" y="80" width="22" height="95" rx="3" fill="#85929e" stroke="#566573" stroke-width="2"/>
+    <!-- disco AFASTADO -->
+    <rect x="132" y="80" width="16" height="95" rx="3" fill="#c0392b" stroke="#7b241c" stroke-width="2"/>
+    <rect x="150" y="80" width="14" height="95" rx="3" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <rect x="164" y="120" width="107" height="14" fill="#5d6d7e"/>
+    <text x="250" y="200" text-anchor="middle" font-size="11" fill="#7f8c8d">câmbio</text>
+
+    <!-- folga -->
+    <line x1="118" y1="190" x2="131" y2="190" stroke="#c0392b" stroke-width="2"/>
+    <text x="124" y="225" text-anchor="middle" font-size="10" fill="#943126">folga: força não passa</text>
+    <text x="170" y="58" text-anchor="middle" font-size="12" fill="#943126" font-weight="700">motor gira livre</text>
+  </g>
+
+  <defs>
+    <marker id="go" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#27ae60"/>
+    </marker>
+  </defs>
+</svg>
