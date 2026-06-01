@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">A cor da poça no chão diz qual fluido está vazando</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#7f8c8d">Coloque um papelão sob o carro à noite e veja a cor pela manhã</text>
+
+  <!-- linha 1 -->
+  <!-- Óleo de motor -->
+  <g transform="translate(60,80)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#3b2f2f" stroke="#1c1414" stroke-width="1.5"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Marrom-escuro / preto</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Óleo do motor</text>
+  </g>
+
+  <!-- Arrefecimento -->
+  <g transform="translate(280,80)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#27ae60" stroke="#1e8449" stroke-width="1.5"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Verde / laranja / rosa</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Líquido de arrefecimento</text>
+    <text x="80" y="129" text-anchor="middle" font-size="11" fill="#7f8c8d">(adocicado, pegajoso)</text>
+  </g>
+
+  <!-- Fluido vermelho -->
+  <g transform="translate(500,80)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#c0392b" stroke="#7b241c" stroke-width="1.5"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Vermelho / rosado</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Câmbio automático ou</text>
+    <text x="80" y="129" text-anchor="middle" font-size="12" fill="#7f8c8d">direção hidráulica</text>
+  </g>
+
+  <!-- linha 2 -->
+  <!-- Fluido de freio -->
+  <g transform="translate(60,260)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#d4ac6e" stroke="#a07c3a" stroke-width="1.5"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Âmbar / amarelado</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Fluido de freio</text>
+    <text x="80" y="129" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="700">perigoso — pare</text>
+  </g>
+
+  <!-- Combustível -->
+  <g transform="translate(280,260)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#f4d03f" stroke="#b7950b" stroke-width="1.5" opacity="0.7"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Claro, cheiro forte</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Combustível</text>
+    <text x="80" y="129" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="700">risco de incêndio</text>
+  </g>
+
+  <!-- Água (normal) -->
+  <g transform="translate(500,260)">
+    <ellipse cx="80" cy="40" rx="75" ry="30" fill="#d6eaf8" stroke="#aed6f1" stroke-width="1.5" opacity="0.7"/>
+    <text x="80" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Água transparente</text>
+    <text x="80" y="113" text-anchor="middle" font-size="12" fill="#7f8c8d">Ar-condicionado</text>
+    <text x="80" y="129" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="700">normal, não se preocupe</text>
+  </g>
+</svg>
