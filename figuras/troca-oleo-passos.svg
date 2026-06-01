@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <marker id="drip" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="6" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#e67e22"/>
+    </marker>
+  </defs>
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Troca de óleo: a sequência básica</text>
+
+  <!-- ===== Passo 1: drenar ===== -->
+  <g transform="translate(20,55)">
+    <rect x="0" y="0" width="330" height="160" rx="8" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="14" fill="#c0392b"/><text x="26" y="31" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+    <text x="52" y="31" font-size="13" font-weight="700" fill="#2c3e50">Drenar o óleo velho (motor morno)</text>
+
+    <!-- cárter -->
+    <path d="M 90 60 H 260 L 240 100 H 110 Z" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+    <!-- bujão -->
+    <rect x="168" y="98" width="14" height="10" fill="#34495e"/>
+    <text x="200" y="92" font-size="10" fill="#566573">bujão de dreno</text>
+    <!-- jato de óleo -->
+    <path d="M 175 110 V 130" stroke="#e67e22" stroke-width="4" marker-end="url(#drip)"/>
+    <!-- bandeja -->
+    <path d="M 120 134 H 230 L 222 150 H 128 Z" fill="#5d6d7e" stroke="#34495e" stroke-width="1.5"/>
+    <text x="175" y="148" text-anchor="middle" font-size="10" fill="#fff">bandeja</text>
+  </g>
+
+  <!-- ===== Passo 2: filtro ===== -->
+  <g transform="translate(370,55)">
+    <rect x="0" y="0" width="330" height="160" rx="8" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="14" fill="#c0392b"/><text x="26" y="31" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+    <text x="52" y="31" font-size="13" font-weight="700" fill="#2c3e50">Trocar o filtro de óleo</text>
+
+    <!-- filtro velho saindo -->
+    <rect x="80" y="70" width="50" height="70" rx="10" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <text x="105" y="110" text-anchor="middle" font-size="10" fill="#2c3e50">velho</text>
+    <path d="M 150 105 H 195" stroke="#7f8c8d" stroke-width="3" marker-end="url(#drip)"/>
+    <!-- filtro novo -->
+    <rect x="210" y="70" width="50" height="70" rx="10" fill="#d5f5e3" stroke="#27ae60" stroke-width="2.5"/>
+    <text x="235" y="110" text-anchor="middle" font-size="10" fill="#1e8449">novo</text>
+    <text x="235" y="156" text-anchor="middle" font-size="10" fill="#566573">passe óleo na vedação</text>
+  </g>
+
+  <!-- ===== Passo 3: recolocar bujão ===== -->
+  <g transform="translate(20,235)">
+    <rect x="0" y="0" width="330" height="160" rx="8" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="14" fill="#c0392b"/><text x="26" y="31" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+    <text x="52" y="31" font-size="13" font-weight="700" fill="#2c3e50">Recolocar o bujão (torque certo)</text>
+
+    <path d="M 90 70 H 260 L 240 110 H 110 Z" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+    <rect x="166" y="108" width="18" height="12" fill="#27ae60"/>
+    <!-- chave/torquímetro -->
+    <rect x="184" y="110" width="80" height="9" rx="4" fill="#5d6d7e"/>
+    <rect x="184" y="108" width="18" height="13" rx="2" fill="#c0392b"/>
+    <text x="175" y="145" text-anchor="middle" font-size="10" fill="#566573">arruela nova + aperto no torque</text>
+  </g>
+
+  <!-- ===== Passo 4: abastecer ===== -->
+  <g transform="translate(370,235)">
+    <rect x="0" y="0" width="330" height="160" rx="8" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="14" fill="#c0392b"/><text x="26" y="31" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+    <text x="52" y="31" font-size="13" font-weight="700" fill="#2c3e50">Abastecer e conferir a vareta</text>
+
+    <!-- motor com bocal -->
+    <rect x="120" y="95" width="120" height="50" rx="6" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+    <rect x="150" y="78" width="22" height="18" rx="3" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+    <!-- galão derramando -->
+    <path d="M 110 60 q -20 5 -20 18 l 0 6 q 14 4 26 -4 z" fill="#e67e22"/>
+    <path d="M 120 78 q 20 0 35 5" stroke="#e67e22" stroke-width="4" fill="none" marker-end="url(#drip)"/>
+    <text x="180" y="68" font-size="10" fill="#566573">bocal de óleo</text>
+    <text x="180" y="160" text-anchor="middle" font-size="10" fill="#566573">na quantidade do manual</text>
+  </g>
+</svg>
