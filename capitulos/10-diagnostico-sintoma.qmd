@@ -1,21 +1,128 @@
 # Diagnóstico por sintoma {#sec-diagnostico}
 
-> *Capítulo a desenvolver.* Fluxos práticos partindo do problema percebido.
+Os capítulos anteriores ensinaram a entender os sistemas (Parte I) e a perceber os sinais (capítulos 8 e 9). Agora vamos juntar tudo de forma prática: **partindo do problema que você percebe**, como investigar a causa de maneira lógica, do mais simples e seguro ao mais complexo?
 
-## Árvores de decisão
+A ferramenta deste capítulo é a **árvore de decisão** (fluxograma). Você começa no sintoma, no topo, responde a perguntas de "sim ou não" e vai descendo até uma causa provável. A lógica é sempre a mesma e vem do @sec-ouvindo: observe *quando* e *como* o problema aparece, e elimine as causas uma a uma.
 
-Cada sintoma terá um fluxograma (mermaid) guiando a investigação. Exemplo:
+::: {.atencao}
+Estes fluxogramas são guias de **orientação**, não substituem um profissional. O objetivo é você entender o problema, tomar decisões seguras na hora (parar ou seguir) e chegar à oficina sabendo do que se trata — o que evita surpresas no orçamento. Quando o caminho terminar em "procure ajuda", leve a sério.
+:::
+
+## Sintoma 1: o carro não liga
+
+O primeiro passo separa três situações bem diferentes pelo **som** ao acionar a partida — exatamente como vimos no @sec-eletrico. Siga a @fig-diag-nao-liga.
 
 ```{mermaid}
+%%| label: fig-diag-nao-liga
+%%| fig-cap: "Fluxo de diagnóstico para o carro que não liga."
 flowchart TD
-    A[Carro não liga] --> B{Faz algum som ao virar a chave?}
-    B -->|Nenhum som| C[Verificar bateria e conexões]
-    B -->|Clique seco| D[Possível bateria fraca ou motor de arranque]
-    B -->|Motor gira mas não pega| E[Verificar combustível e faísca]
+    A["Girou a chave / apertou o botão"] --> B{"O que acontece?"}
+    B -->|Nada, nem luzes no painel| C["Bateria descarregada<br/>ou terminais soltos/sujos"]
+    B -->|Luzes acendem, mas só um clique| D["Bateria fraca ou<br/>motor de arranque"]
+    B -->|O motor gira mas não pega| E{"Tem combustível?"}
+    E -->|Não, ou na reserva| F["Abasteça"]
+    E -->|Sim| G["Falta faísca ou combustível<br/>não chega: velas, bomba, fusível"]
+    C --> H["Chupeta ou recarga;<br/>limpe e aperte os terminais"]
 ```
 
-Sintomas previstos: não liga, superaquece, freio mole, perda de potência, fumaça.
+::: {.dica}
+**Som é diagnóstico.** "Nada" aponta para energia (bateria/conexão). "Clique" é energia chegando, mas insuficiente para girar (bateria fraca ou arranque). "Gira mas não pega" significa que a parte elétrica de partida está boa — o problema é combustível ou faísca. Essa única distinção já resolve metade dos casos.
+:::
+
+## Sintoma 2: o carro superaqueceu
+
+Aqui a primeira ação não é diagnosticar, é **proteger o motor**. Veja a @fig-diag-superaquece.
+
+```{mermaid}
+%%| label: fig-diag-superaquece
+%%| fig-cap: "O que fazer quando o carro superaquece."
+flowchart TD
+    A["Ponteiro na zona vermelha<br/>ou luz de temperatura"] --> B["PARE em local seguro<br/>e desligue o motor"]
+    B --> C["Espere esfriar 30+ min.<br/>NÃO abra o radiador quente"]
+    C --> D{"Nível do líquido<br/>de arrefecimento?"}
+    D -->|Baixo| E["Complete e procure vazamento:<br/>mangueiras, radiador, poça no chão"]
+    D -->|Normal| F{"A ventoinha liga<br/>com o motor quente?"}
+    F -->|Não| G["Ventoinha, fusível<br/>ou sensor de temperatura"]
+    F -->|Sim| H["Termostato preso ou<br/>bomba d'água: leve à oficina"]
+```
+
+::: {.perigo}
+Nunca abra a tampa do radiador ou do reservatório com o motor quente: o sistema é pressurizado e jorra líquido fervente. E **não insista em dirigir** superaquecido para "chegar logo" — é assim que se queima a junta do cabeçote e se transforma um reparo barato num motor inteiro. Reveja o @sec-arrefecimento.
+:::
+
+## Sintoma 3: freio mole ou afundando
+
+Freio é segurança máxima. Ao primeiro sinal de pedal estranho, reduza a velocidade usando o **freio-motor** (tire o pé do acelerador e reduza marchas) e siga a @fig-diag-freio.
+
+```{mermaid}
+%%| label: fig-diag-freio
+%%| fig-cap: "Investigação para pedal de freio mole ou que afunda."
+flowchart TD
+    A["Pedal mole ou afundando"] --> B["Reduza a velocidade com<br/>segurança; use o freio-motor"]
+    B --> C{"Nível do fluido<br/>de freio?"}
+    C -->|Baixo| D["Pastilhas muito gastas<br/>ou vazamento no sistema"]
+    C -->|Normal| E{"O pedal firma se<br/>você bombeia?"}
+    E -->|Sim, firma bombeando| F["Ar no sistema:<br/>precisa de sangria"]
+    E -->|Não firma| G["Falha grave:<br/>NÃO dirija, chame socorro"]
+    D --> G
+```
+
+::: {.perigo}
+Pedal que vai ao fundo e não responde é emergência. Se não conseguir frear com segurança, use o **freio de mão de forma gradual** (puxe aos poucos, nunca de uma vez em velocidade) e o freio-motor para parar. Não volte a dirigir até o freio ser consertado. Detalhes de fluido e sangria no @sec-freios-manut.
+:::
+
+## Sintoma 4: perda de potência
+
+"O carro está sem força" é uma queixa ampla. O atalho moderno é olhar a **luz de injeção**, porque o próprio carro pode já ter registrado a causa. Veja a @fig-diag-potencia.
+
+```{mermaid}
+%%| label: fig-diag-potencia
+%%| fig-cap: "Diagnóstico de perda de potência ou engasgos."
+flowchart TD
+    A["Carro sem força ou engasgando"] --> B{"Luz de injeção acesa?"}
+    B -->|Sim| C["Ler o código com<br/>um scanner OBD-II"]
+    B -->|Não| D{"Quando piora?"}
+    D -->|Só ao acelerar forte| E["Filtro de ar ou combustível sujo,<br/>velas gastas ou bomba fraca"]
+    D -->|O tempo todo, motor tremendo| F["Falha de um cilindro:<br/>vela, bobina ou injetor"]
+    C --> G["Tratar conforme o código<br/>(ver próximo capítulo)"]
+```
+
+::: {.dica}
+Muitas perdas de potência têm causas **baratas e de manutenção**: filtro de ar entupido sufocando o motor (@sec-combustivel), velas no fim (@sec-fluidos) ou combustível ruim. Antes de imaginar o pior, descarte o básico.
+:::
+
+## Sintoma 5: fumaça pelo escapamento
+
+A **cor** da fumaça conta a história, como já adiantamos no @sec-motor. Siga a @fig-diag-fumaca.
+
+```{mermaid}
+%%| label: fig-diag-fumaca
+%%| fig-cap: "A cor da fumaça aponta a origem do problema."
+flowchart TD
+    A["Fumaça pelo escapamento"] --> B{"Qual a cor?"}
+    B -->|Branca fina que some| C["Vapor de água:<br/>normal a frio ou em dia úmido"]
+    B -->|Branca densa e adocicada| D["Arrefecimento na queima:<br/>junta do cabeçote, à oficina"]
+    B -->|Azulada| E["Óleo queimando:<br/>motor consumindo óleo"]
+    B -->|Preta| F["Excesso de combustível:<br/>filtro de ar, injeção ou sensores"]
+```
+
+::: {.callout-note}
+Um pouco de "fumaça" branca fina ao ligar o carro pela manhã, que desaparece em segundos, é só vapor de água condensada — normal. Preocupe-se com fumaça **densa, contínua e colorida** (branca espessa, azul ou preta), que indica fluido sendo queimado onde não deveria.
+:::
+
+## Como usar estes fluxogramas na prática
+
+1. **Identifique o sintoma principal** (o que te incomodou primeiro).
+2. **Garanta a segurança antes de tudo:** se há dúvida sobre freios, superaquecimento, cheiro de combustível ou fumaça densa, pare.
+3. **Responda às perguntas com calma**, do topo para baixo, sem pular etapas.
+4. **Anote o que observou** (quando acontece, com qual som/cheiro/cor). Isso acelera o trabalho da oficina e o seu entendimento.
+5. Se o caminho levar a um código de erro, o próximo capítulo (@sec-obd2) mostra como lê-lo.
 
 ## Resumo
 
-*A preencher.*
+- O diagnóstico por sintoma parte do problema percebido e desce, por perguntas de sim/não, até a causa provável.
+- "Não liga": o som da partida (nada, clique ou gira sem pegar) separa problema de energia, de arranque ou de combustível/faísca.
+- "Superaqueceu": pare e desligue primeiro; só depois investigue nível, vazamento e ventoinha — nunca abra o radiador quente.
+- "Freio mole": reduza com o freio-motor; fluido baixo, ar no sistema ou falha grave que exige socorro.
+- "Perda de potência": comece pela luz de injeção e por causas baratas de manutenção.
+- "Fumaça": a cor indica a origem — branca densa (arrefecimento), azul (óleo), preta (combustível).
