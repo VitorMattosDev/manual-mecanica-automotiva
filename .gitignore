@@ -1,13 +1,19 @@
 # Saída do Quarto
 /_book/
 /.quarto/
+**/*_files/
+render.log
 
 # Dependências / ferramentas de conferência de figuras
 /node_modules/
 package-lock.json
 package.json
 /figuras/_png/
+# PDFs irmãos gerados só para o render local (no CI o rsvg-convert cuida da conversão)
+/figuras/*.pdf
 
 # Sistema
 .DS_Store
 Thumbs.db
+
+**/*.quarto_ipynb

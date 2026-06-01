@@ -2,12 +2,13 @@ project:
   type: book
   output-dir: _book
 
+lang: pt-BR
+
 book:
   title: "Manual de Mecânica e Manutenção Automotiva"
   subtitle: "Um guia didático para iniciantes"
   author: "Manuais de Ciências"
   date: today
-  lang: pt-BR
   search: true
   page-navigation: true
   sidebar:
