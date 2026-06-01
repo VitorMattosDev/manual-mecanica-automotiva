@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <radialGradient id="disco" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d5dbdb"/>
+      <stop offset="100%" stop-color="#85929e"/>
+    </radialGradient>
+    <marker id="press" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="7" refY="6" orient="auto">
+      <path d="M0,0 L14,6 L0,12 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">A pinça aperta as pastilhas contra o disco que gira com a roda</text>
+
+  <!-- ===== Vista frontal do disco ===== -->
+  <g transform="translate(170,210)">
+    <circle cx="0" cy="0" r="120" fill="url(#disco)" stroke="#566573" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="42" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <circle cx="0" cy="0" r="12" fill="#566573"/>
+    <!-- furos dos parafusos -->
+    <g fill="#566573">
+      <circle cx="0" cy="-26" r="5"/>
+      <circle cx="25" cy="8" r="5"/>
+      <circle cx="-25" cy="8" r="5"/>
+    </g>
+    <text x="0" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Disco (gira com a roda)</text>
+    <!-- seta de rotação -->
+    <path d="M -70 -78 A 105 105 0 0 1 70 -78" fill="none" stroke="#7f8c8d" stroke-width="2" marker-end="url(#rot)"/>
+
+    <!-- Pinça (caliper) sobre a borda superior -->
+    <path d="M -50 -135 H 50 V -95 H 38 V -118 H -38 V -95 H -50 Z" fill="#c0392b" stroke="#7b241c" stroke-width="2"/>
+    <text x="0" y="-150" text-anchor="middle" font-size="13" font-weight="700" fill="#c0392b">Pinça</text>
+  </g>
+
+  <!-- ===== Detalhe: corte mostrando o aperto ===== -->
+  <g transform="translate(430,170)">
+    <rect x="-110" y="-40" width="220" height="200" rx="8" fill="#fbfcfc" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="0" y="-20" text-anchor="middle" font-size="12" font-weight="700" fill="#2c3e50">Como ela aperta</text>
+
+    <!-- disco (faixa central) -->
+    <rect x="-8" y="0" width="16" height="130" fill="#85929e" stroke="#566573" stroke-width="1.5"/>
+    <text x="0" y="150" text-anchor="middle" font-size="10" fill="#7f8c8d">disco</text>
+
+    <!-- pastilhas -->
+    <rect x="-34" y="25" width="20" height="70" fill="#34495e"/>
+    <rect x="14" y="25" width="20" height="70" fill="#34495e"/>
+    <text x="-60" y="65" text-anchor="middle" font-size="10" fill="#2c3e50">pastilha</text>
+    <text x="62" y="65" text-anchor="middle" font-size="10" fill="#2c3e50">pastilha</text>
+
+    <!-- pistão / aperto (setas) -->
+    <path d="M -78 60 H -36" fill="none" stroke="#c0392b" stroke-width="5" marker-end="url(#press)"/>
+    <path d="M 78 60 H 36" fill="none" stroke="#c0392b" stroke-width="5" marker-end="url(#press)"/>
+    <text x="0" y="118" text-anchor="middle" font-size="10" fill="#c0392b">o atrito freia e vira calor</text>
+  </g>
+
+  <defs>
+    <marker id="rot" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L11,5 L0,10 Z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+</svg>
