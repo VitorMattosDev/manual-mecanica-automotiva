@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <defs>
+    <marker id="ea" markerUnits="userSpaceOnUse" markerWidth="15" markerHeight="15" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="eb" markerUnits="userSpaceOnUse" markerWidth="15" markerHeight="15" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#27ae60"/>
+    </marker>
+  </defs>
+
+  <text x="350" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">A bateria dá a partida; depois o alternador recarrega tudo</text>
+
+  <!-- Bateria -->
+  <rect x="40" y="160" width="130" height="90" rx="8" fill="#d6eaf8" stroke="#2980b9" stroke-width="2.5"/>
+  <text x="105" y="195" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Bateria</text>
+  <text x="60" y="225" font-size="20" font-weight="700" fill="#2980b9">+</text>
+  <text x="145" y="227" font-size="22" font-weight="700" fill="#2980b9">−</text>
+  <text x="105" y="245" text-anchor="middle" font-size="10" fill="#7f8c8d">guarda energia</text>
+
+  <!-- Motor de arranque -->
+  <rect x="270" y="300" width="150" height="70" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="345" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#2c3e50">Motor de arranque</text>
+  <text x="345" y="350" text-anchor="middle" font-size="10" fill="#7f8c8d">gira o motor para ele "pegar"</text>
+
+  <!-- Motor (centro) -->
+  <circle cx="345" cy="185" r="55" fill="#d5dbdb" stroke="#566573" stroke-width="2.5"/>
+  <text x="345" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#2c3e50">Motor</text>
+
+  <!-- Alternador -->
+  <rect x="530" y="150" width="130" height="80" rx="8" fill="#eafaf1" stroke="#27ae60" stroke-width="2.5"/>
+  <text x="595" y="183" text-anchor="middle" font-size="14" font-weight="700" fill="#2c3e50">Alternador</text>
+  <text x="595" y="205" text-anchor="middle" font-size="10" fill="#7f8c8d">gera energia</text>
+  <text x="595" y="219" text-anchor="middle" font-size="10" fill="#7f8c8d">com o motor ligado</text>
+
+  <!-- Consumidores -->
+  <rect x="270" y="40" width="150" height="60" rx="8" fill="#fef5e7" stroke="#e67e22" stroke-width="2"/>
+  <text x="345" y="65" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Luzes, ignição,</text>
+  <text x="345" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">sensores, computador</text>
+
+  <!-- (1) Partida: bateria -> arranque -->
+  <path d="M 105 250 V 335 H 270" fill="none" stroke="#c0392b" stroke-width="4" marker-end="url(#ea)"/>
+  <text x="150" y="300" font-size="12" fill="#c0392b" font-weight="700">1) partida →</text>
+
+  <!-- arranque -> motor -->
+  <path d="M 345 300 V 245" fill="none" stroke="#c0392b" stroke-width="4" marker-end="url(#ea)"/>
+
+  <!-- (2) motor -> alternador (correia) -->
+  <path d="M 400 185 H 525" fill="none" stroke="#7f8c8d" stroke-width="4" stroke-dasharray="6 5" marker-end="url(#rota)"/>
+  <text x="462" y="175" text-anchor="middle" font-size="10" fill="#7f8c8d">correia</text>
+
+  <!-- (3) alternador -> bateria (recarga) -->
+  <path d="M 595 230 V 270 H 105 V 250" fill="none" stroke="#27ae60" stroke-width="4" marker-end="url(#eb)"/>
+  <text x="350" y="288" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="700">3) recarrega a bateria e alimenta o carro ←</text>
+
+  <!-- alternador/bateria -> consumidores -->
+  <path d="M 345 160 V 105" fill="none" stroke="#27ae60" stroke-width="4" marker-end="url(#eb)"/>
+  <text x="360" y="135" font-size="11" fill="#1e8449">energia</text>
+
+  <defs>
+    <marker id="rota" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L11,5 L0,10 Z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+</svg>
