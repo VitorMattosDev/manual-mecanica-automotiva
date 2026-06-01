@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Roteiro visual: o que olhar num carro usado</text>
+
+  <!-- chão -->
+  <line x1="40" y1="270" x2="680" y2="270" stroke="#7f8c8d" stroke-width="3"/>
+
+  <!-- carro (perfil) -->
+  <path d="M 150 270 L 175 200 Q 185 175 220 172 L 300 168 Q 320 140 370 138 L 470 140 Q 520 145 545 200 L 565 270 Z"
+        fill="#d6eaf8" stroke="#2980b9" stroke-width="2.5"/>
+  <!-- janelas -->
+  <path d="M 305 168 Q 322 146 365 144 L 430 145 Q 460 148 475 168 Z" fill="#aed6f1" stroke="#5499c7" stroke-width="1.5"/>
+  <!-- rodas -->
+  <circle cx="235" cy="270" r="34" fill="#34495e"/><circle cx="235" cy="270" r="13" fill="#85929e"/>
+  <circle cx="490" cy="270" r="34" fill="#34495e"/><circle cx="490" cy="270" r="13" fill="#85929e"/>
+  <!-- farol -->
+  <circle cx="158" cy="225" r="9" fill="#f9e79f" stroke="#b7950b" stroke-width="1.5"/>
+  <!-- escapamento -->
+  <rect x="540" y="262" width="26" height="9" rx="4" fill="#566573"/>
+
+  <!-- ===== pontos numerados ===== -->
+  <g font-size="12" fill="#2c3e50">
+    <!-- 1 lataria / frestas -->
+    <circle cx="370" cy="120" r="13" fill="#c0392b"/><text x="370" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
+    <line x1="370" y1="133" x2="370" y2="145" stroke="#95a5a6" stroke-width="1.2"/>
+    <text x="370" y="108" text-anchor="middle">lataria: frestas e tom da pintura</text>
+
+    <!-- 2 pneus -->
+    <circle cx="235" cy="332" r="13" fill="#c0392b"/><text x="235" y="337" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
+    <text x="235" y="362" text-anchor="middle">pneus: desgaste e marca igual</text>
+
+    <!-- 3 suspensão -->
+    <circle cx="120" cy="190" r="13" fill="#c0392b"/><text x="120" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text>
+    <text x="120" y="175" text-anchor="middle">suspensão: teste do "quica"</text>
+    <line x1="133" y1="195" x2="205" y2="240" stroke="#95a5a6" stroke-width="1.2"/>
+
+    <!-- 4 vazamentos -->
+    <circle cx="370" cy="300" r="13" fill="#c0392b"/><text x="370" y="305" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">4</text>
+    <text x="370" y="335" text-anchor="middle">embaixo: poças e manchas</text>
+    <line x1="370" y1="287" x2="370" y2="272" stroke="#95a5a6" stroke-width="1.2"/>
+
+    <!-- 5 escapamento -->
+    <circle cx="640" cy="240" r="13" fill="#c0392b"/><text x="640" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">5</text>
+    <text x="635" y="225" text-anchor="middle">escapamento: cor da fumaça</text>
+    <line x1="627" y1="245" x2="566" y2="266" stroke="#95a5a6" stroke-width="1.2"/>
+
+    <!-- 6 faróis/luzes -->
+    <circle cx="95" cy="245" r="13" fill="#c0392b"/><text x="95" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">6</text>
+    <text x="95" y="285" text-anchor="middle">luzes: todas acendem?</text>
+    <line x1="108" y1="243" x2="149" y2="227" stroke="#95a5a6" stroke-width="1.2"/>
+  </g>
+</svg>
