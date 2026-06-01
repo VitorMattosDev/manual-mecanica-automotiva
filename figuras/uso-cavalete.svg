@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="340" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Macaco só levanta. Quem segura o carro é o cavalete.</text>
+
+  <!-- ===== CERTO ===== -->
+  <g transform="translate(20,50)">
+    <rect x="0" y="0" width="310" height="250" rx="10" fill="#eafaf1" stroke="#27ae60" stroke-width="2"/>
+    <text x="155" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1e8449">✓ CERTO</text>
+
+    <!-- chão -->
+    <line x1="20" y1="210" x2="290" y2="210" stroke="#7f8c8d" stroke-width="3"/>
+    <!-- carro -->
+    <path d="M 50 120 q 10 -45 70 -45 l 90 0 q 50 0 60 45 z" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+    <rect x="50" y="120" width="220" height="25" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <!-- roda (no ar, levantada) -->
+    <circle cx="95" cy="160" r="22" fill="#34495e"/>
+    <circle cx="95" cy="160" r="8" fill="#85929e"/>
+    <circle cx="225" cy="170" r="22" fill="#34495e"/>
+    <circle cx="225" cy="170" r="8" fill="#85929e"/>
+
+    <!-- cavalete (A-frame) sob a estrutura -->
+    <g stroke="#1e8449" stroke-width="4" fill="none">
+      <path d="M 150 150 L 135 210 M 150 150 L 165 210 M 140 185 H 160"/>
+    </g>
+    <text x="150" y="232" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="700">cavalete firme</text>
+
+    <!-- macaco (pode estar, mas não é o único apoio) -->
+    <rect x="245" y="186" width="24" height="24" fill="#27ae60" opacity="0.5"/>
+    <text x="257" y="232" text-anchor="middle" font-size="10" fill="#1e8449">macaco</text>
+  </g>
+
+  <!-- ===== ERRADO ===== -->
+  <g transform="translate(350,50)">
+    <rect x="0" y="0" width="310" height="250" rx="10" fill="#fdedec" stroke="#c0392b" stroke-width="2"/>
+    <text x="155" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#943126">✗ ERRADO</text>
+
+    <line x1="20" y1="210" x2="290" y2="210" stroke="#7f8c8d" stroke-width="3"/>
+    <path d="M 50 120 q 10 -45 70 -45 l 90 0 q 50 0 60 45 z" fill="#d5dbdb" stroke="#566573" stroke-width="2"/>
+    <rect x="50" y="120" width="220" height="25" fill="#aeb6bf" stroke="#566573" stroke-width="2"/>
+    <circle cx="95" cy="160" r="22" fill="#34495e"/>
+    <circle cx="95" cy="160" r="8" fill="#85929e"/>
+    <circle cx="225" cy="170" r="22" fill="#34495e"/>
+    <circle cx="225" cy="170" r="8" fill="#85929e"/>
+
+    <!-- só o macaco segurando -->
+    <rect x="143" y="150" width="24" height="60" fill="#c0392b"/>
+    <text x="155" y="232" text-anchor="middle" font-size="12" fill="#943126" font-weight="700">só o macaco — pode ceder!</text>
+
+    <!-- símbolo de perigo -->
+    <path d="M 250 70 l 18 32 -36 0 z" fill="#c0392b"/>
+    <text x="250" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">!</text>
+  </g>
+</svg>
