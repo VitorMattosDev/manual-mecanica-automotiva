@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="'Source Sans Pro', sans-serif" class="figura-tecnica">
+  <text x="340" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#2c3e50">Duas trocas fáceis: palheta e lâmpada</text>
+
+  <!-- ===== Palheta ===== -->
+  <g transform="translate(20,50)">
+    <rect x="0" y="0" width="310" height="240" rx="10" fill="#eaf2f8" stroke="#5499c7" stroke-width="1.5"/>
+    <text x="155" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#21618c">Palheta do limpador</text>
+
+    <!-- braço levantado -->
+    <line x1="40" y1="120" x2="180" y2="70" stroke="#566573" stroke-width="6"/>
+    <!-- palheta (borracha + suporte) -->
+    <rect x="150" y="62" width="120" height="14" rx="4" fill="#34495e"/>
+    <!-- clipe / trava -->
+    <rect x="188" y="58" width="26" height="22" rx="3" fill="#c0392b"/>
+    <text x="201" y="46" text-anchor="middle" font-size="11" fill="#c0392b">trava (clipe)</text>
+    <line x1="201" y1="50" x2="201" y2="58" stroke="#c0392b" stroke-width="1.2"/>
+
+    <!-- passos -->
+    <text x="28" y="150" font-size="12" fill="#1e8449">1. levante o braço do limpador</text>
+    <text x="28" y="174" font-size="12" fill="#1e8449">2. aperte a trava e deslize a palheta</text>
+    <text x="28" y="198" font-size="12" fill="#1e8449">3. encaixe a nova até ouvir "clique"</text>
+    <text x="155" y="226" text-anchor="middle" font-size="10" fill="#7f8c8d" font-style="italic">cuidado: o braço pode bater no vidro</text>
+  </g>
+
+  <!-- ===== Lâmpada ===== -->
+  <g transform="translate(350,50)">
+    <rect x="0" y="0" width="310" height="240" rx="10" fill="#fef5e7" stroke="#e67e22" stroke-width="1.5"/>
+    <text x="155" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#ba6018">Lâmpada do farol</text>
+
+    <!-- lâmpada halógena -->
+    <g transform="translate(95,70)">
+      <ellipse cx="40" cy="30" rx="34" ry="26" fill="#fdebd0" stroke="#b7950b" stroke-width="2"/>
+      <line x1="40" y1="14" x2="40" y2="46" stroke="#f1c40f" stroke-width="3"/>
+      <rect x="70" y="18" width="22" height="24" fill="#85929e" stroke="#566573" stroke-width="1.5"/>
+      <rect x="92" y="22" width="14" height="16" fill="#566573"/>
+      <text x="40" y="80" text-anchor="middle" font-size="10" fill="#7f8c8d">segure pela base</text>
+    </g>
+
+    <!-- aviso não tocar no vidro -->
+    <g transform="translate(60,150)">
+      <circle cx="20" cy="20" r="18" fill="none" stroke="#c0392b" stroke-width="3"/>
+      <line x1="8" y1="8" x2="32" y2="32" stroke="#c0392b" stroke-width="3"/>
+      <text x="50" y="17" font-size="11" fill="#c0392b" font-weight="700">não toque no vidro</text>
+      <text x="50" y="32" font-size="10" fill="#7f8c8d">a gordura do dedo</text>
+      <text x="50" y="45" font-size="10" fill="#7f8c8d">queima a lâmpada</text>
+    </g>
+    <text x="155" y="222" text-anchor="middle" font-size="10" fill="#7f8c8d" font-style="italic">desligue tudo antes de trocar</text>
+  </g>
+
+  <defs>
+    <marker id="tg" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" refX="6" refY="5" orient="auto"><path d="M0,0 L11,5 L0,10 Z" fill="#27ae60"/></marker>
+  </defs>
+</svg>
