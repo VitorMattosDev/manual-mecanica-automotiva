@@ -1,0 +1,13 @@
+# Saída do Quarto
+/_book/
+/.quarto/
+
+# Dependências / ferramentas de conferência de figuras
+/node_modules/
+package-lock.json
+package.json
+/figuras/_png/
+
+# Sistema
+.DS_Store
+Thumbs.db
